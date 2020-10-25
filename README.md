@@ -6,4 +6,7 @@ npm install
 
 # dependencias, yargs, axios, colors
 
+para correr. 
+
+node app -d "Cordoba"
 
