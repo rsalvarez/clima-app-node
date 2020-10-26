@@ -28,6 +28,8 @@ const optsAct = {
     }
 }*/
 
+const api = '4a5c42e78a7abe0791ef20615a8e0886';
+
 const argv = require('yargs').options({
 
     direccion: {
@@ -38,5 +40,6 @@ const argv = require('yargs').options({
 }).argv;
 
 module.exports = {
-    argv
+    argv,
+    api
 }
